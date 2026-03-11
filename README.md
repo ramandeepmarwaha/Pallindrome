@@ -80,7 +80,7 @@ while (n > 0)
 }
 This logic extracts digits from the number and constructs the reversed number.
 
-Installation
+# Installation
 Clone the repository
 
 git clone https://github.com/yourusername/java-palindrome-checker.git
