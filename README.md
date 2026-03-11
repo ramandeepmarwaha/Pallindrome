@@ -71,13 +71,16 @@ Print Result
 
 # Code Example
 
-```java
+```
 while (n > 0)
 {
     s = n % 10;
     n = n / 10;
     t = t * 10 + s;
 }
+
+```
+
 This logic extracts digits from the number and constructs the reversed number.
 
 # Installation
@@ -93,7 +96,7 @@ javac Pallindrome.java
 Run the program
 
 java Pallindrome
-Example Run
+# Example Run
 Enter a number
 121
 Its a Pallindrome
@@ -102,13 +105,13 @@ Another example:
 Enter a number
 123
 Its not a Pallindrome
-Project Structure
+# Project Structure
 java-palindrome-checker
 │
 ├── Pallindrome.java
 ├── README.md
 Concepts Demonstrated
-This project demonstrates:
+# This project demonstrates:
 
 Java Console Input (Scanner)
 
@@ -119,21 +122,4 @@ Conditional Statements (if / else)
 Mathematical Operations (% modulus and division)
 
 Basic Algorithm Design
-
-Possible Improvements
-Future enhancements could include:
-
-Checking palindrome strings
-
-Supporting negative numbers
-
-Creating a GUI version
-
-Converting into a REST API service
-
-Author
-Ramandeep S. Marwaha
-
-Senior Consultant – Data Architecture
-Toronto, Canada
 
